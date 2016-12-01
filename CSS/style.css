@@ -1,0 +1,254 @@
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: white;
+  width: 100vw
+  font-family: 'Raleway';
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+section {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#landingPage {
+  /*position: relative;*/
+  text-align: center;
+  background-image: url('http://i1180.photobucket.com/albums/x412/gdiaz1410/20160429_173742_zpsef7hfhmp.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+#nameHeader {
+  font-family: 'Bungee';
+  font-size: 95px;
+  padding-top: 60px;
+}
+
+#subheader {
+  font-size: 32px;
+  margin-top: 80px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#mainNavBar {
+  position: absolute;
+  bottom: 40px;
+  margin: 20px auto;
+  left: auto;
+  text-align: center;
+  left: 35vw;
+  font-size: 24px;
+  letter-spacing: 2px;
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+}
+
+/*********/
+.nav {
+  /*position: a;*/
+  bottom: 50px;
+  /*left: 12vw;*/
+  margin-left: 105px;
+  font-size: 18px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type:none;
+  display: inline;
+}
+
+ li:not(:first-child):before {
+    content: " / ";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#aboutSection {
+  height: 100vh;
+}
+
+.leftSplit {
+  width: 40%;
+  display: inline-block;
+  height: 100%;
+  background-color: #cc0e27;
+  position: relative;
+}
+
+.sectionHeader {
+  text-align: center;
+  font-size: 84px;
+  margin-top: 40%;
+  text-transform: uppercase;
+}
+
+.rightSplit {
+  width: 60%;
+  float: right;
+  height: 100%;
+  color: black;
+  position: relative;
+}
+
+#aboutRight {
+  background-image: url("../images/beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 28px;
+  /*opacity: 0.8;*/
+}
+
+#skillsSection {
+  /*margin: 150px 200px;*/
+  text-align: center;
+  /*margin-top: 30px;*/
+}
+
+#skillsList {
+  font-size: 16px;
+}
+
+#skillsList p {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#skillsList li {
+  font-weight: bolder;
+}
+
+.techSkills {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#myImage {
+  /*border-radius: 5px;*/
+}
+
+#myImage img {
+  position: absolute;
+  height: 350px;
+  width: 225px;
+  margin-left: 80px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+#aboutMeText {
+  font-size: 18px;
+  margin: 50px 100px;
+  padding-left: 300px;
+  text-align: center;
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-size: 42px;
+}
+
+#listOfInterest {
+  margin-top: 50px;
+}
+
+#listOfInterest ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#workSection {
+  background-image: url("../images/building.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#workRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#workRight img {
+  width: 100%;
+  height: 100%;
+}
+
+#workRight a {
+  /*max-height: 100px;
+  max-width: 100px;*/
+  width: 50%;
+  height: 40%;
+  margin: 0 auto;
+}
+
+#contactSection {
+  height: 100vh;
+}
+
+#contactRight {
+  background-image: url('../images/austin.jpg');
+  background-position: center;
+  /*opacity: 0.7;*/
+  position: relative;
+}
+
+/*#contactRight::after {
+  opacity: 0.7;
+  position: absolute;
+}*/
+
+#icons {
+  margin-top: 100px;
+  background-color: #f2efef;
+  /*opacity: 0.9;*/
+  height: 540px;
+  opacity: 0.6;
+}
+
+#icons i{
+  font-size: 86px;
+  display: flex;
+  /*text-align: center;*/
+  /*flex-direction: column;*/
+  justify-content: center;
+  margin-bottom: 10px;
+  /*margin: 100px 150px;*/
+  /*margin: 0 auto;*/
+/*
+  position: absolute;*/
+}
+
+#icons p {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  /*position: absolute;*/
+}
+
+#icons a {
+  color: black;
+}
